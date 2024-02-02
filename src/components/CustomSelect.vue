@@ -32,7 +32,7 @@
   </template>
   
   <script setup lang="ts">
-    import { onMounted, ref } from 'vue';
+    import { ref } from 'vue';
     import ChevronLeft from '@/assets/chevron-left.svg'
 
     const props = defineProps<{
@@ -123,7 +123,7 @@
     background-color: #fff;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 9999;
   }
   
   .custom-select .items div {
